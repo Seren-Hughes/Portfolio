@@ -10,6 +10,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
 
+
+
+
 /* header section - hero calling */
 #hero {
     background-color: #dbdcde; /* light grey */
@@ -32,6 +35,13 @@ h2 {
     font-family: "DM Serif Display", sans-serif;
     color: #184f63;
 }
+
+.sharp-corners,
+.sharp-corners *
+ {
+    border-radius: 0;
+}
+
 
 #about {
     background-color: white;
